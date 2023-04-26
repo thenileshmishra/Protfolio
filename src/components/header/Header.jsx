@@ -1,17 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import "./header.css";
 
-const Header = () => {
-  /*=============== Toggle Menu ===============*/
-  const [Toggle, showMenu] = useState(false);
-
+function Header() {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav_logo">
-          {/* NILΞSH */} NILESH MISHRA
+        <a href="index.html" className="nav__logo">
+          NILESH
         </a>
-        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+
+        <div className="nav__menu">
           <ul className="nav__item grid">
             <li className="nav__item">
               <a href="#home" className="nav__link active-link">
@@ -48,16 +46,36 @@ const Header = () => {
           </ul>
           <i
             className="uil uil-times nav__close"
-            onClick={() => showMenu(!Toggle)}
+            // onClick={() => showMenu(!Toggle)}
           ></i>
         </div>
-
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+        <div className="nav__toggle">
           <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>
   );
-};
+}
 
 export default Header;
+
+// const Header = () => {
+//   /*=============== Toggle Menu ===============*/
+//   const [Toggle, showMenu] = useState(false);
+
+//   return (
+//     //
+//
+//         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+
+//         </div>
+
+//         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+//
+//         </div>
+//       </nav>
+//     </header>
+//   );
+// };
+
+// export default Header;

@@ -21,7 +21,8 @@
   font-weight: var(--font-medium);
 }
 
-.nav__list {
+/* .nav__list */
+.nav__item {
   display: flex;
   column-gap: 2rem;
 }
@@ -76,7 +77,7 @@
   .show-menu {
     bottom: 0;
   }
-  .nav__list {
+  .nav__item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
