@@ -7,7 +7,7 @@ import Skills from "./components/skills/Skills";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className="main">
         {/* <Home /> */}
         <About />
