@@ -1,0 +1,20 @@
+.home {
+  background-color: var(--first-gradient);
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+.home__container {
+  width: 100%;
+}
+
+.home__subtitle,
+.home__job {
+  font-weight: 700;
+}
+
+.home__subtitle,
+.home__job span {
+  font-size: var(--small-font-size);
+}

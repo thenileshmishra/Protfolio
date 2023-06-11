@@ -100,6 +100,10 @@
   .nav__close:hover {
     color: var(--title-color-dark);
   }
+  .nav__toogle {
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
 
   .nav__icon,
   .nav__close,
