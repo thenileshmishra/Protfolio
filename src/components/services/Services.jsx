@@ -7,6 +7,8 @@ function Services() {
   const toggleTab = (index) => {
     setToggleState(index);
   };
+
+  console.log(toggleState);
   return (
     <section className="services section" id="services">
       <h2 className="section__title">Services</h2>
@@ -96,7 +98,7 @@ function Services() {
             </h3>
           </div>
 
-          <span onClick={() => toggleTab(2)} className="services__button">
+          <span className="services__button" onClick={() => toggleTab(2)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -109,7 +111,10 @@ function Services() {
             }
           >
             <div className="services__modal-content">
-              <i className="uil uil-times services__modal-close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
 
               <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
@@ -168,7 +173,7 @@ function Services() {
             </h3>
           </div>
 
-          <span className="services__button">
+          <span className="services__button" onClick={() => toggleTab(3)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
