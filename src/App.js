@@ -9,12 +9,12 @@ import Qualification from "./components/qualification/Qualification";
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main className="main">
-        {/* <Home /> */}
-        {/* <About /> */}
-        {/* <Skills /> */}
-        {/* <Services /> */}
+        <Home />
+        <About />
+        <Skills />
+        <Services />
         <Qualification />
       </main>
     </>
