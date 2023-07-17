@@ -120,29 +120,29 @@
   }
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
-    height: 30%;
+    height: 40%;
     transition: 0.5s;
   }
 
   .nav__link {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .nav__list {
     column-gap: 0;
   }
   .nav__icon {
-    font-size: 3.2rem;
+    font-size: 2rem;
   }
 
   .nav__close {
-    font-size: 4.2rem;
+    font-size: 3.2rem;
   }
 
   .nav__open {
-    font-size: 3rem;
+    font-size: 1.7rem;
   }
   .nav__logo {
-    font-size: 3rem;
+    font-size: 1.7rem;
   }
 }
