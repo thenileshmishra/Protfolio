@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./about.css";
 function info() {
   return (
     <div className="about__info grid">

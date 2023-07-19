@@ -1,7 +1,7 @@
 .about__container {
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-items: center;
-  column-gap: 4rem;
+  justify-content: center;
 }
 
 .about__img {
@@ -48,8 +48,9 @@
 /* For Large Devices */
 @media screen and( max-width: 992px) {
   .about__container {
-    grid-template-columns: 1fr;
-    row-gap: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .about__img {
@@ -77,11 +78,23 @@
 /* For Medium Devices */
 
 @media screen and (max-width: 576px) {
+  .about__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   .about__info {
     grid-template-columns: repeat(3, 1fr);
   }
   .about__description {
     padding: 0;
+  }
+  .about__data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 
