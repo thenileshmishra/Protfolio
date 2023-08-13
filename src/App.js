@@ -11,11 +11,11 @@ function App() {
     <>
       <Header />
       <main className="main">
-        {/* <Home /> */}
+        <Home />
         <About />
-        {/*  <Skills />
-        <Services />
-        <Qualification /> */}
+        <Skills />
+        {/* <Services /> */}
+        <Qualification />
       </main>
     </>
   );
