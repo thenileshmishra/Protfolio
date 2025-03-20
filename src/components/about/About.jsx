@@ -13,9 +13,10 @@ function About() {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            I'm a React Frontend Developer specializing in crafting web pages
+            with a focus on UI/UX. With years of experience, I've successfully
+            delivered projects that have left many clients satisfied with the
+            results.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV

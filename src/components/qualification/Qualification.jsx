@@ -30,7 +30,7 @@ function Qualification() {
                 </span>
                 <div className="ququalification__calender">
                   <i className="uil uil-calender-alt">2021 - Present</i>
-                </div>
+                </div>n
               </div>
 
               <div>
