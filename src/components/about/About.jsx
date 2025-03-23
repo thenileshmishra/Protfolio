@@ -1,9 +1,10 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/Profile1.gif";
 import CV from "../../assets/John-Cv.pdf";
 import Info from "./Info";
 function About() {
+  
   return (
     <section className="about section" id="about">
       <h2 className="section__title"> About Nilesh Mishra</h2>
