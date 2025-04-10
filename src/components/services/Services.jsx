@@ -1,242 +1,73 @@
-import React, { useState } from "react";
+import React from "react";
 import "./services.css";
 
 function Services() {
-  const [toggleState, setToggleState] = useState(0);
-
-  const toggleTab = (index) => {
-    setToggleState(index);
-  };
-
-  console.log(toggleState);
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What i offer</span>
+      <h2 className="section__title">Projects</h2>
+      <span className="section__subtitle">My Recent Work</span>
 
-      <div className="servies__container container grid">
+      <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">
-              Product <br /> Designer
-            </h3>
+            <img src="https://via.placeholder.com/300x200" alt="Project 1" className="services__img" />
+            <h3 className="services__title">E-commerce Website</h3>
+            <p className="services__description">
+              A full-stack e-commerce platform with React, Node.js, and MongoDB
+            </p>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>
-            View More
-            <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 1
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
-              ></i>
-
-              <h3 className="services__modal-title">Product Designer</h3>
-              <p className="services__modal-description">
-                Services with more than 3 years of experience. Providing quality
-                work to clients and companies.
-              </p>
-
-              <ul className="services__modal-services grid">
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    I position your company brand.
-                  </p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
-                  </p>
-                </li>
-              </ul>
-            </div>
+          <div className="services__links">
+            <a href="https://github.com/yourusername/ecommerce" target="_blank" rel="noopener noreferrer" className="services__button">
+              GitHub
+              <i className="uil uil-github services__button-icon"></i>
+            </a>
+            <a href="https://ecommerce-demo.com" target="_blank" rel="noopener noreferrer" className="services__button">
+              Live Demo
+              <i className="uil uil-external-link-alt services__button-icon"></i>
+            </a>
           </div>
         </div>
 
         <div className="services__content">
           <div>
-            <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__title">
-              Ui/Ux <br /> Designer
-            </h3>
+            <img src="https://via.placeholder.com/300x200" alt="Project 2" className="services__img" />
+            <h3 className="services__title">Task Management App</h3>
+            <p className="services__description">
+              A task management application built with React and Firebase
+            </p>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(2)}>
-            View More
-            <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 2
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
-              ></i>
-
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
-              <p className="services__modal-description">
-                Services with more than 3 years of experience. Providing quality
-                work to clients and companies.
-              </p>
-
-              <ul className="services__modal-services grid">
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    I position your company brand.
-                  </p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
-                  </p>
-                </li>
-              </ul>
-            </div>
+          <div className="services__links">
+            <a href="https://github.com/yourusername/task-manager" target="_blank" rel="noopener noreferrer" className="services__button">
+              GitHub
+              <i className="uil uil-github services__button-icon"></i>
+            </a>
+            <a href="https://task-manager-demo.com" target="_blank" rel="noopener noreferrer" className="services__button">
+              Live Demo
+              <i className="uil uil-external-link-alt services__button-icon"></i>
+            </a>
           </div>
         </div>
 
         <div className="services__content">
           <div>
-            <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">
-              Visual <br /> Designer
-            </h3>
+            <img src="https://via.placeholder.com/300x200" alt="Project 3" className="services__img" />
+            <h3 className="services__title">Weather Dashboard</h3>
+            <p className="services__description">
+              A weather application using React and OpenWeather API
+            </p>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(3)}>
-            View More
-            <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 3
-                ? "services__modal active-modal"
-                : "services__modal"
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                onClick={() => toggleTab(0)}
-                className="uil uil-times services__modal-close"
-              ></i>
-
-              <h3 className="services__modal-title">Visual Designer</h3>
-              <p className="services__modal-description">
-                Services with more than 3 years of experience. Providing quality
-                work to clients and companies.
-              </p>
-
-              <ul className="services__modal-services grid">
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    I position your company brand.
-                  </p>
-                </li>
-
-                <li className="services__modal-services">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
-                  </p>
-                </li>
-              </ul>
-            </div>
+          <div className="services__links">
+            <a href="https://github.com/yourusername/weather-app" target="_blank" rel="noopener noreferrer" className="services__button">
+              GitHub
+              <i className="uil uil-github services__button-icon"></i>
+            </a>
+            <a href="https://weather-demo.com" target="_blank" rel="noopener noreferrer" className="services__button">
+              Live Demo
+              <i className="uil uil-external-link-alt services__button-icon"></i>
+            </a>
           </div>
         </div>
       </div>
