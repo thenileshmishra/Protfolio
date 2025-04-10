@@ -216,3 +216,21 @@ img {
     margin-right: var(--mb-1);
   }
 }
+
+.app {
+  position: relative;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.main {
+  padding-top: var(--header-height);
+  position: relative;
+  z-index: 1;
+}
+
+/* Add this to ensure content is above the background */
+.app > *:not(.animation) {
+  position: relative;
+  z-index: 1;
+}
