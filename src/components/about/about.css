@@ -44,6 +44,12 @@
   margin-bottom: var(--mb-2-5);
 }
 
+.about__button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 /* =================BREAKPOINTS================== */
 /* For Large Devices */
 @media screen and( max-width: 992px) {
