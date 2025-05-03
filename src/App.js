@@ -6,7 +6,6 @@ import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Qualification from "./components/qualification/Qualification";
 import Contact from "./components/contact/Contact";
-import AnimatedName from './components/AnimatedName/AnimatedName';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <main className="main">
         <Home />
          <About />
-         {/* <AnimatedName /> */}
         <Skills />
         <Services />
         <Qualification />
