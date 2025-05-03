@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/NileshMishra.pdf";
 function About() {
   
   return (
@@ -8,7 +8,6 @@ function About() {
       <h2 className="section__title"> About Nilesh Mishra</h2>
       <span className="section__subtitle">My introduction</span>
       <div className="about__container container grid">
-        {/* <img src={AboutImg} alt="" className="about__img" /> */}
         <div className="about__data">
           <p className="about__description">
               Hi there 👋🏽, I'm Nilesh Mishra — a passionate developer and AI enthusiast who thrives at the intersection of clean code and intelligent systems. 
