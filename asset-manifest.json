@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Protfolio/static/css/main.a0f1e708.css",
+    "main.js": "/Protfolio/static/js/main.bf764b30.js",
+    "static/media/Profile1.gif": "/Protfolio/static/media/Profile1.46e50458f520da8f57c6.gif",
+    "static/media/NileshMishra.pdf": "/Protfolio/static/media/NileshMishra.091308a9ae6329d28699.pdf",
+    "index.html": "/Protfolio/index.html",
+    "main.a0f1e708.css.map": "/Protfolio/static/css/main.a0f1e708.css.map",
+    "main.bf764b30.js.map": "/Protfolio/static/js/main.bf764b30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0f1e708.css",
+    "static/js/main.bf764b30.js"
+  ]
+}
