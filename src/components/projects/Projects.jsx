@@ -1,7 +1,7 @@
 import React from "react";
-import "./services.css";
+import "./projects.css";
 
-function Services() {
+function Projects() {
   return (
     <section className="services section" id="services">
       <h2 className="section__title">Projects</h2>
@@ -75,4 +75,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Projects;
