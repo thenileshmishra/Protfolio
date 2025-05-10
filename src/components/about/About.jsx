@@ -11,7 +11,7 @@ function About() {
         <div className="about__data">
           <p className="about__description">
               Hi there 👋🏽, I'm Nilesh Mishra — a passionate developer and AI enthusiast who thrives at the intersection of clean code and intelligent systems. 
-              With a strong foundation in , Nodejs, C++, and Python, I love creating seamless user interfaces while also diving deep into machine learning, NLP, and cutting-edge neural architectures.
+              With a strong foundation in ,React Js, MongoDB, Nodejs, C++, and Python, I love creating seamless user interfaces while also diving deep into machine learning, NLP, and cutting-edge neural architectures.
               I enjoy building systems that not only work—but think. 
               Whether it's crafting brainwave-based image generators or fine-tuning language models for low-resource translation, I'm driven by curiosity and impact.
               I constantly explore emerging technologies and love turning complex ideas into tangible, scalable solutions. 
