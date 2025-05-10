@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import ipodmini from "../../assets/ipod1.png";
 import dsa from "../../assets/dsa.png";
+import llmseqrec from "../../assets/LLMSecReq.png";
 
 function Projects() {
   return (
@@ -54,15 +55,15 @@ function Projects() {
 
         <div className="services__content">
           <div>
-            <img src="https://via.placeholder.com/300x200" alt="Project 3" className="services__img" />
-            <h3 className="services__title">Weather Dashboard</h3>
+            <img src={llmseqrec} alt="LLMSeqRec Project" className="services__img" />
+            <h3 className="services__title">LLMSeqRec</h3>
             <p className="services__description">
-              A weather application using React and OpenWeather API
+              LLM Sequence Recommendation System which is trained using MovieLens 20M dataset and BART model for Embedding.
             </p>
           </div>
 
           <div className="services__links">
-            <a href="https://github.com/yourusername/weather-app" target="_blank" rel="noopener noreferrer" className="services__button">
+            <a href="https://github.com/thenileshmishra/LLMSeqRec" target="_blank" rel="noopener noreferrer" className="services__button">
               GitHub
               <i className="uil uil-github services__button-icon"></i>
             </a>
