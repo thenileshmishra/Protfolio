@@ -10,6 +10,9 @@ function Social() {
       <a href="https://github.com/thenileshmishra" className="home__social-icon" target="_blank" rel="noreferrer">
         <i className="uil uil-github-alt"></i>
       </a>
+      <a href="https://leetcode.com/u/thenilesh/" className="home__social-icon" target="_blank" rel="noreferrer">
+        <i className="uil uil-brackets-curly"></i>
+      </a>
     </div>
   );
 }
