@@ -54,6 +54,7 @@
 
 .home__description {
   max-width: 400px;
+  text-align: justify;
   margin-bottom: var(--mb-3);
 }
 
