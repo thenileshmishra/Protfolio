@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea4817c3.css",
+    "main.css": "/static/css/main.24e88817.css",
     "main.js": "/static/js/main.7fba33c6.js",
     "static/media/LLMSecReq.png": "/static/media/LLMSecReq.b9183a49dc89062757e4.png",
     "static/media/NileshMishra.pdf": "/static/media/NileshMishra.091308a9ae6329d28699.pdf",
@@ -8,11 +8,11 @@
     "static/media/Profile.png": "/static/media/Profile.e613e50dc116855cc1f8.png",
     "static/media/ipod1.png": "/static/media/ipod1.1665921a4015bd70e6fb.png",
     "index.html": "/index.html",
-    "main.ea4817c3.css.map": "/static/css/main.ea4817c3.css.map",
+    "main.24e88817.css.map": "/static/css/main.24e88817.css.map",
     "main.7fba33c6.js.map": "/static/js/main.7fba33c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea4817c3.css",
+    "static/css/main.24e88817.css",
     "static/js/main.7fba33c6.js"
   ]
 }
