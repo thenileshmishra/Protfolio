@@ -5,13 +5,10 @@ function Data() {
     <div className="home__data">
       <h1 className="home__title">
         Nilesh Mishra
-       
       </h1>
-      <h3 className="home__subtitle">Full Stack Developer </h3>
+      <h3 className="home__subtitle">AI/ML  Engineer</h3>
       <p className="home__description">
-      I'm a creative MERN developer, with a strong foundation in C++,
-      Machine Learning, and Deep Learning. I have a passion for building efficient, 
-      scalable applications and enjoy combining modern technologies with AI-driven solutions.
+      AI/ML Engineer with MERN expertise, skilled in building scalable ML and NLP solutions using Transformers, PyTorch, TensorFlow, and Hugging Face. Strong foundation in C++, algorithms, and deep learning, with hands-on experience in LLMs, custom positional encodings, and production-level React systems. I enjoy bridging the gap between software engineering and applied AI to create intelligent, high-performance applications.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

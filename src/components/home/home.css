@@ -58,7 +58,8 @@
 }
 
 .home__img {
-  background: url(../../assets/Profile1.gif);
+  /* background: url(../../assets/Profile1.gif); */
+  background: url(../../assets/Profile.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -128,7 +129,7 @@
     margin-bottom: var(--mb-1);
   }
   .home__subtitle::before {
-    width: 42px;
+    width: 22px;
     top: 0.8rem;
   }
 
@@ -209,3 +210,9 @@
 .home__job span {
   font-size: var(--small-font-size);
 } */
+
+.leetcode-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}

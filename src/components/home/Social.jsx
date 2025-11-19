@@ -10,9 +10,22 @@ function Social() {
       <a href="https://github.com/thenileshmishra" className="home__social-icon" target="_blank" rel="noreferrer">
         <i className="uil uil-github-alt"></i>
       </a>
-      <a href="https://leetcode.com/u/thenilesh/" className="home__social-icon" target="_blank" rel="noreferrer">
+      {/* <a href="https://leetcode.com/u/thenilesh/" className="home__social-icon" target="_blank" rel="noreferrer">
         <i className="uil uil-brackets-curly"></i>
+      </a> */}
+      <a
+        href="https://leetcode.com/u/thenilesh/"
+        className="home__social-icon"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/leetcode.svg"
+          alt="LeetCode"
+          className="leetcode-img"
+        />
       </a>
+
     </div>
   );
 }
