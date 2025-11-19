@@ -47,12 +47,43 @@ function Skills() {
                   <span className="skills__level">Intermediate</span>
                 </div>
               </div>
+              <div className="skills__data">
+                <i className="bx bx-bot"></i>
+                <div>
+                  <h3 className="skills__name">Agentic AI</h3>
+                  <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <i className="bx bx-cloud-lightning"></i>
+                <div>
+                  <h3 className="skills__name">Fine-tuning (PEFT, LoRA)</h3>
+                  <span className="skills__level">Advanced</span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <i className="bx bx-columns"></i>
+                <div>
+                  <h3 className="skills__name">RAG</h3>
+                  <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <i className="bx bx-link-alt"></i>
+                <div>
+                  <h3 className="skills__name">LangChain</h3>
+                  <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Full Stack Development */}
           <div className="skills__section">
-            <h3 className="skills__title"> Full Stack Development</h3>
+            <h3 className="skills__title"> Front End Development</h3>
             <div className="skills__paragraph">
               <div className="skills__data">
                 <i className="bx bxl-react"></i>
@@ -62,10 +93,10 @@ function Skills() {
                 </div>
               </div>
               <div className="skills__data">
-                <i className="bx bx-code-block"></i>
+                <i className="bx bx-cloud"></i>
                 <div>
-                  <h3 className="skills__name">Node Js</h3>
-                  <span className="skills__level">Intermediate</span>
+                  <h3 className="skills__name">API Integration</h3>
+                  <span className="skills__level">Advanced</span>
                 </div>
               </div>
               <div className="skills__data">
@@ -96,7 +127,6 @@ function Skills() {
                   <span className="skills__level">Advanced</span>
                 </div>
               </div>
-              
             </div>
           </div>
 
@@ -140,6 +170,14 @@ function Skills() {
                 </div>
               </div>
               <div className="skills__data">
+                <i className="bx bx-bot"></i>
+                <div>
+                  <h3 className="skills__name">Hugging Face</h3>
+                  <span className="skills__level">Advanced</span>
+                </div>
+              </div>
+
+              <div className="skills__data">
                 <i className="bx bx-data"></i>
                 <div>
                   <h3 className="skills__name">Pandas</h3>
@@ -158,6 +196,62 @@ function Skills() {
                 <div>
                   <h3 className="skills__name">Git & GitHub</h3>
                   <span className="skills__level">Advanced</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Cloud & DevOps */}
+          <div className="skills__section">
+            <h3 className="skills__title">Cloud & DevOps</h3>
+            <div className="skills__paragraph">
+              <div className="skills__data">
+                <i className="bx bx-server"></i>
+                <div>
+                  <h3 className="skills__name">
+                    AWS (S3, EC2, Lambda, SageMaker)
+                  </h3>
+                  <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <i className="bx bx-dock-bottom"></i>
+                <div>
+                  <h3 className="skills__name">Docker (Containers)</h3>
+                  <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <i className="bx bx-cube"></i>
+                <div>
+                  <h3 className="skills__name">Kubernetes (Basics)</h3>
+                  <span className="skills__level">Basic</span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <i className="bx bx-git-branch"></i>
+                <div>
+                  <h3 className="skills__name">CI/CD (GitHub Actions)</h3>
+                  <span className="skills__level">Basic</span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <i className="bx bx-line-chart"></i>
+                <div>
+                  <h3 className="skills__name">MLflow (Experiment Tracking)</h3>
+                  <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <i className="bx bx-server"></i>
+                <div>
+                  <h3 className="skills__name">Deployment & Model Serving</h3>
+                  <span className="skills__level">Intermediate</span>
                 </div>
               </div>
             </div>
