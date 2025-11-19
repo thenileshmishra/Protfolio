@@ -19,7 +19,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically handle form submission
+    // Here you would typically handle form submission (send to API, email service, etc.)
     console.log("Form submitted:", formData);
     // Reset form
     setFormData({
@@ -41,10 +41,15 @@ function Contact() {
 
           <div className="contact__info">
             <div className="contact__card">
+              <i className="uil uil-map-marker contact__card-icon"></i>
+              <h3 className="contact__card-title">Location</h3>
+              <span className="contact__card-data">Calicut, Kerala</span>
+            </div>
+
+            <div className="contact__card">
               <i className="uil uil-envelope contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@email.com</span>
-              <a href="mailto:user@email.com" className="contact__button">
+              <a href="mailto:thenileshmishra@gmail.com" className="contact__button">
                 Write me
                 <i className="uil uil-arrow-right contact__button-icon"></i>
               </a>
@@ -53,8 +58,7 @@ function Contact() {
             <div className="contact__card">
               <i className="uil uil-linkedin contact__card-icon"></i>
               <h3 className="contact__card-title">LinkedIn</h3>
-              <span className="contact__card-data">linkedin.com/in/username</span>
-              <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" className="contact__button">
+              <a href="https://www.linkedin.com/in/thenileshmishra" target="_blank" rel="noopener noreferrer" className="contact__button">
                 Connect
                 <i className="uil uil-arrow-right contact__button-icon"></i>
               </a>
@@ -63,8 +67,7 @@ function Contact() {
             <div className="contact__card">
               <i className="uil uil-github contact__card-icon"></i>
               <h3 className="contact__card-title">GitHub</h3>
-              <span className="contact__card-data">github.com/username</span>
-              <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" className="contact__button">
+              <a href="https://github.com/thenileshmishra" target="_blank" rel="noopener noreferrer" className="contact__button">
                 Follow
                 <i className="uil uil-arrow-right contact__button-icon"></i>
               </a>
