@@ -10,11 +10,9 @@ function About() {
       <div className="about__container container grid">
         <div className="about__data">
           <p className="about__description">
-              Hi there 👋🏽, I'm Nilesh Mishra — a passionate developer and AI enthusiast who thrives at the intersection of clean code and intelligent systems. 
-              With a strong foundation in ,React Js, MongoDB, Nodejs, C++, and Python, I love creating seamless user interfaces while also diving deep into machine learning, NLP, and cutting-edge neural architectures.
-              I enjoy building systems that not only work—but think. 
-              Whether it's crafting brainwave-based image generators or fine-tuning language models for low-resource translation, I'm driven by curiosity and impact.
-              I constantly explore emerging technologies and love turning complex ideas into tangible, scalable solutions. 
+              Hi there 👋🏽, I'm Nilesh Mishra, an M.Tech CSE student at NIT Calicut and a Full-Stack AI/ML developer with a strong background in React.js frontend engineering. I have 1.6 years of industry experience building scalable UI systems and integrating real-time APIs, along with hands-on expertise in Machine Learning, Deep Learning, NLP, and Transformers.
+              I enjoy creating end-to-end intelligent systems— from designing models and experimenting with novel architectures to deploying production-ready applications. My recent work includes legal text summarization using BART and a hybrid Gaussian–sinusoidal positional encoding technique optimized with Genetic Algorithms.
+              Passionate about AI research, practical engineering, and solving real-world problems, I aim to build applications where clean software design meets powerful machine learning.
               Let's connect—I'm always up for exciting collaborations, open-source contributions, or a good discussion on AI and front-end innovation.
           </p>
 
