@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import CV from "../../assets/NileshMishra.pdf";
+import CV from "../../assets/Nilesh.pdf";
 function About() {
   
   return (
