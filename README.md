@@ -23,9 +23,9 @@ Visit my portfolio at: [www.nileshmishra.info](https://www.nileshmishra.info)
 ## 🛠️ Technologies Used
 
 - React.js
+- Vite
 - CSS3 with custom properties
 - GSAP for animations
-- React Router for navigation
 - Unicons for icons
 - GitHub Pages for deployment
 
